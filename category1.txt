@@ -1,0 +1,81 @@
+./photo/mah/Iran-International.png
+https://3ab99827.p-2as.pages.dev/player/#https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b806000.m3u8
+tv Iran International
+./photo/mah/pna-cinema.png
+https://3ab99827.p-2as.pages.dev/player/#https://cinehls.persiana.live/hls/stream.m3u8
+tv persiana cinema
+./photo/mah/pna-turkiye.png
+https://3ab99827.p-2as.pages.dev/player/#https://turkhls.persiana.live/hls/stream.m3u8
+tv Persiana Turkiye
+./photo/mah/pna-family.png
+https://3ab99827.p-2as.pages.dev/player/#https://familyhls.persiana.live/hls/stream.m3u8
+tv persiana familyhls
+./photo/mah/pna-science.png
+https://3ab99827.p-2as.pages.dev/player/#https://scihls.persiana.live/hls/stream.m3u8
+tv scihls persiana
+./photo/mah/pna-latino.png
+https://3ab99827.p-2as.pages.dev/player/#https://latinohls.persiana.live/hls/stream.m3u8
+tv Persiana Latino
+./photo/mah/pn-iranian.png
+https://3ab99827.p-2as.pages.dev/player/#https://irhls.persiana.live/hls/stream.m3u8
+tv Persiana Iranian
+./photo/mah/pna-music.png
+https://3ab99827.p-2as.pages.dev/player/#https://musichls.persiana.live/hls/stream.m3u8
+tv Persiana Music
+./photo/mah/avaseries.png
+https://3ab99827.p-2as.pages.dev/player/#https://avaserieshls.wns.live/hls/stream.m3u8
+tv AVA Series
+./photo/mah/pn-iranian.png
+https://3ab99827.p-2as.pages.dev/player/#https://latinohls.persiana.live/hls/stream.m3u8
+tv Persiana Iranian
+./photo/mah/pna-sonnati.png
+https://3ab99827.p-2as.pages.dev/player/#https://sonhls.persiana.live/hls/stream.m3u8
+tv Persiana Sonnati
+./photo/mah/4kuhls.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://4kuhls.persiana.live/hls/stream.m3u8
+tv 4Kurd
+./photo/mah/pna-comedy.png
+https://3ab99827.p-2as.pages.dev/player/#https://comedyhls.persiana.live/hls/stream.m3u8
+tv persiana comedy
+./photo/mah/pna-sports.png
+https://3ab99827.p-2as.pages.dev/player/#https://twohls.persiana.live/hls/stream.m3u8
+tv Persiana Sports
+./photo/mah/meta-film-tv.png
+https://3ab99827.p-2as.pages.dev/player/#https://metafilmhls.wns.live/hls/stream.m3u8
+tv meta filmh
+./photo/mah/IranTV_Network.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://itnhls.wns.live/hls/stream.m3u8
+tv ITN HD
+./photo/mah/avang-tv.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://hls.avang.live/hls/stream.m3u8
+tv avang
+./photo/mah/pna-rap.png
+https://3ab99827.p-2as.pages.dev/player/#https://raphls.persiana.live/hls/stream.m3u8
+tv Persiana Rap
+./photo/mah/pna-sonnati.png
+https://3ab99827.p-2as.pages.dev/player/#https://sonhls.persiana.live/hls/stream.m3u8
+tv son persiana
+./photo/mah/pna-hd.png
+https://3ab99827.p-2as.pages.dev/player/#https://euhls.persiana.live/hls/stream.m3u8
+tv persiana hd
+./photo/mah/pna-one.png
+https://3ab99827.p-2as.pages.dev/player/#https://onehls.persiana.live/hls/stream.m3u8
+tv one persiana
+./photo/mah/pna-two.png
+https://3ab99827.p-2as.pages.dev/player/#https://twohls.persiana.live/hls/stream.m3u8
+tv two persiana
+./photo/mah/pna-korea.png
+https://3ab99827.p-2as.pages.dev/player/#https://korhls.persiana.live/hls/stream.m3u8
+tv Persiana Korea
+./photo/mah/pna-comedy.png
+https://3ab99827.p-2as.pages.dev/player/#https://comedyhls.persiana.live/hls/stream.m3u8
+tv Persiana Comedy
+./photo/mah/pna-junior.png
+https://3ab99827.p-2as.pages.dev/player/#https://junhls.persiana.live/hls/stream.m3u8
+tv Persiana Junior
+./photo/mah/pna-nostalgia.png
+https://3ab99827.p-2as.pages.dev/player/#https://noshls.persiana.live/hls/stream.m3u8
+tv Persiana Nostalgia
+./photo/mah/mbcpersia-1.png
+https://3ab99827.p-2as.pages.dev/player/#https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
+tv MBC Persia
