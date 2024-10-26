@@ -1,5 +1,5 @@
 ./photo/mah/Iran-International.png
-https://3ab99827.p-2as.pages.dev/player/#https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b806000.m3u8
+https://0c.msn-3b8.workers.dev/-----https://3ab99827.p-2as.pages.dev/player/#https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b806000.m3u8
 tv Iran International
 ./photo/mah/pna-cinema.png
 https://3ab99827.p-2as.pages.dev/player/#https://cinehls.persiana.live/hls/stream.m3u8
@@ -32,7 +32,7 @@ tv Persiana Iranian
 https://3ab99827.p-2as.pages.dev/player/#https://sonhls.persiana.live/hls/stream.m3u8
 tv Persiana Sonnati
 ./photo/mah/4kuhls.jpg
-https://3ab99827.p-2as.pages.dev/player/#https://4kuhls.persiana.live/hls/stream.m3u8
+https://0c.msn-3b8.workers.dev/-----https://3ab99827.p-2as.pages.dev/player/#https://4kuhls.persiana.live/hls/stream.m3u8
 tv 4Kurd
 ./photo/mah/pna-comedy.png
 https://3ab99827.p-2as.pages.dev/player/#https://comedyhls.persiana.live/hls/stream.m3u8
