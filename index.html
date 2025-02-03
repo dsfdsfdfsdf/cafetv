@@ -1,41 +1,508 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeTV - پخش زنده</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Vazirmatn', Arial, sans-serif;
+        }
 
-    <link rel="stylesheet" href="style.css">
+        /* Body Styles */
+        body {
+            background: linear-gradient(135deg, #1c1c2d, #2a2a4a, #3b3b6b);
+            color: #fff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Header Styles */
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header h1 {
+            color: #ff0062;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin: 0;
+            flex-grow: 1;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .search-container {
+            position: relative;
+            width: 300px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Support Button Styles */
+        .support-button {
+            background: linear-gradient(135deg, #ff0062, #ff0062);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+            display: block;
+            margin: 1rem auto;
+            text-align: center;
+            max-width: 200px;
+            animation: pulse 2s infinite;
+        }
+
+        .support-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.5);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        /* Gallery Container */
+        .gallery-container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        /* Category Styles */
+        .category {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .category-title {
+            font-size: 2rem;
+            color: #4ecdc4;
+            text-align: center;
+            margin-bottom: 2rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        .category-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #4ecdc4 0%, #45b7af 100%);
+            border-radius: 2px;
+        }
+
+        /* Gallery Items */
+        .gallery-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            aspect-ratio: 16/9;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .gallery-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover::before {
+            opacity: 1;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .image-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem;
+            font-size: 1.2rem;
+            text-align: center;
+            color: #fff;
+            z-index: 2;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover .image-title {
+            transform: translateY(0);
+        }
+
+        /* Popup Player */
+        .popup-player {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .popup-content {
+            position: relative;
+            width: 90%;
+            max-width: 1000px;
+            background: #1a1a2e;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+
+        .popup-player.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .popup-player.active .popup-content {
+            transform: scale(1);
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #fff;
+            font-size: 2.5rem;
+            cursor: pointer;
+            z-index: 1001;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .close:hover {
+            transform: rotate(90deg);
+            color: #ff0062;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.5rem;
+            margin-top: 3rem;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        footer p {
+            font-size: 1.1rem;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #ff0062;
+        }
+
+        /* Loading Animation */
+        .loader {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #ffffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            z-index: 9999;
+        }
+
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search-container {
+                width: 100%;
+                margin-top: 1rem;
+            }
+
+            .gallery-items {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            }
+            
+            .category-title {
+                font-size: 1.6rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
-<title>cafetv</title>
-    
 <body>
+    <div class="loader"></div>
 
     <header class="header">
-
+        <div class="header-content">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="جستجو...">
+            </div>
+            <h1>CafeTV</h1>
+            <div style="width: 300px;"></div> <!-- Placeholder for alignment -->
+        </div>
     </header>
+
+    <button class="support-button" onclick="window.open('https://pifywlz786.serv00.net/0101/00000/7','_blank','width=400,height=600')">
+        حمایت مالی
+    </button>
 
     <div class="gallery-container">
         <div class="category" id="satellite">
-            <h2 class="category-title">ماهواره</h2>
+            <h2 class="category-title">📡 کانال های ماهواره‌ای</h2>
             <div class="gallery-items" id="satellite-items"></div>
-        </div>
-
-        <div class="category" id="provincial">
-            <h2 class="category-title">استانی</h2>
-            <div class="gallery-items" id="provincial-items"></div>
         </div>
     </div>
 
-    <script src="script.js"></script>
-</body>
+    <footer>
+        <p>
+            طراحی شده با ❤️ توسط
+            <a href="https://t.me/mehdisedighinasab">مهدی صدیقی نسب</a>
+        </p>
+    </footer>
 
-    <footer style="text-align: center; padding: 10px; font-size: 14px; color: #666;">
-  <p>
-    طراحی شده توسط 
-    <a href="https://t.me/mehdisedighinasab" style="color: #ff0062; text-decoration: none;">
-      مهدی صدیقی نسب
-    </a>
-  </p>
-</footer>
-    
+    <script>
+        // Show loader
+        function showLoader() {
+            document.querySelector('.loader').style.display = 'block';
+        }
+
+        // Hide loader
+        function hideLoader() {
+            document.querySelector('.loader').style.display = 'none';
+        }
+
+        // Improved loadGalleryItems with error handling and lazy loading
+        async function loadGalleryItems(file, containerId) {
+            showLoader();
+            try {
+                const response = await fetch(file);
+                const data = await response.text();
+                const lines = data.split('\n').filter(line => line.trim() !== '');
+                
+                const container = document.getElementById(containerId);
+                container.innerHTML = ''; // Clear previous content
+
+                for (let i = 0; i < lines.length; i += 3) {
+                    const imgSrc = lines[i].trim();
+                    const liveStreamUrl = lines[i + 1].trim();
+                    const title = lines[i + 2].trim();
+
+                    const item = document.createElement('div');
+                    item.className = 'gallery-item';
+                    item.innerHTML = `
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                             data-src="${imgSrc}"
+                             alt="${title}"
+                             loading="lazy">
+                        <div class="image-title">${title}</div>
+                    `;
+                    item.addEventListener('click', () => openPlayer(liveStreamUrl));
+                    container.appendChild(item);
+                }
+
+                // Implement lazy loading
+                const lazyImages = document.querySelectorAll('img[data-src]');
+                const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            img.removeAttribute('data-src');
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+
+                lazyImages.forEach(img => lazyLoadObserver.observe(img));
+
+            } catch (error) {
+                console.error('Error loading gallery items:', error);
+                alert('خطا در بارگذاری محتوا! لطفا اتصال اینترنت را بررسی کنید.');
+            } finally {
+                hideLoader();
+            }
+        }
+
+        // Enhanced openPlayer with keyboard support and smooth animation
+        function openPlayer(url) {
+            const playerHTML = `
+                <div class="popup-player">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePlayer()">&times;</span>
+                        <iframe src="${url}"
+                                frameborder="0"
+                                allowfullscreen
+                                style="width: 100%; height: 80vh;"></iframe>
+                    </div>
+                </div>
+            `;
+            
+            document.body.insertAdjacentHTML('beforeend', playerHTML);
+            
+            // Fade in animation
+            setTimeout(() => {
+                document.querySelector('.popup-player').classList.add('active');
+            }, 10);
+
+            // Close on ESC key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closePlayer();
+            });
+
+            // Close on outside click
+            document.querySelector('.popup-player').addEventListener('click', (e) => {
+                if (e.target.classList.contains('popup-player')) {
+                    closePlayer();
+                }
+            });
+        }
+
+        function closePlayer() {
+            const player = document.querySelector('.popup-player');
+            if (player) {
+                player.classList.remove('active');
+                setTimeout(() => player.remove(), 300);
+            }
+        }
+
+        // Search functionality
+        const searchInput = document.querySelector('.search-input');
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            galleryItems.forEach(item => {
+                const title = item.querySelector('.image-title').textContent.toLowerCase();
+                if (title.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', () => {
+            loadGalleryItems('category1.txt', 'satellite-items');
+        });
+    </script>
+</body>
 </html>
