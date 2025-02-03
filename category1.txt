@@ -1,3 +1,60 @@
+./photo/ir/irib1.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv1/tv1_360/index.m3u8
+tv 1
+./photo/ir/irib2.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv2/tv2_360/index.m3u8
+tv 2
+./photo/ir/irib3.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv3/tv3_480/index.m3u8
+tv 3
+./photo/ir/irib4.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv4/tv4_360/index.m3u8
+tv 4
+./photo/ir/irib5.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv5/tv5_360/index.m3u8
+tv 5
+./photo/ir/irinn.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/irinn/irinn_360/index.m3u8
+tv irinn
+./photo/ir/mostanad.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/mostanad/mostanad_540/index.m3u8
+tv mostanad
+./photo/ir/nasim.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/nasim/nasim_360/index.m3u8
+tv nasim
+./photo/ir/salamat.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/salamat/salamat_360/index.m3u8
+salamat
+./photo/ir/azmozesh.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/amoozesh/amoozesh_360/index.m3u8
+tv amoozesh
+./photo/ir/namayesh.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/namayesh/namayesh_360/index.m3u8
+tv namayesh
+./photo/ir/pooya.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/pooya/pooya_360/index.m3u8
+tv pooya
+./photo/ir/tamasha.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tamasha/tamasha_480/index.m3u8
+tv tamasha
+./photo/ir/ifilm.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/ifilm2/ifilm2_360/index.m3u8
+tv ifilm2
+./photo/ir/varzesh.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/varzesh/varzesh_720/index.m3u8
+tv varzesh
+./photo/ir/omid.png
+https://3ab99827.p-2as.pages.dev/player/#https://livecdn.gaplication.com/http/5.123.1.9/80/wh7f454c46tw15785945_1739563790/PLTV/88888888/224/3221226159/4.m3u8
+tv omid
+./photo/ir/aio.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/mostanad/mostanad_540/index.m3u8
+tv Aio Sports 1
+./photo/ir/aio.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/nasim/nasim_360/index.m3u8
+tv Aio Sports 2
+./photo/ir/4u.png
+https://3ab99827.p-2as.pages.dev/player/#https://bravoohls.wns.live/hls/stream.m3u8
+tv 4UTV
 ./photo/mah/Iran-International.png
 https://3ab99827.p-2as.pages.dev/player/#https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b806000.m3u8
 tv Iran International
