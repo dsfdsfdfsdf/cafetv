@@ -1,508 +1,388 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CafeTV - پخش زنده</title>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Reset Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Vazirmatn', Arial, sans-serif;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cafetv - پخش زنده</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/a/a0/20170123152547%21TV_icon.svg/120px-TV_icon.svg.png" type="image/x-icon">
+  <style>
+    :root {
+      --primary-color: #ff0062;
+      --secondary-color: #ff5a85;
+      --accent-color: #4ecdc4;
+      --bg-dark: #1c1c2d;
+      --bg-mid: #2a2a4a;
+      --bg-light: #3b3b6b;
+      --glass-bg: rgba(255, 255, 255, 0.1);
+      --text-color: #ffffff;
+      --shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    }
 
-        /* Body Styles */
-        body {
-            background: linear-gradient(135deg, #1c1c2d, #2a2a4a, #3b3b6b);
-            color: #fff;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', 'Vazirmatn', sans-serif;
+    }
 
-        /* Header Styles */
-        .header {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 1rem;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(10px);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
+    body {
+      background: linear-gradient(135deg, var(--bg-dark), var(--bg-mid), var(--bg-light));
+      color: var(--text-color);
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+      padding-bottom: 70px; /* فضای خالی برای فوتر */
+    }
 
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+    /* لودینگ پیشرفته */
+    .loader {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 120px;
+      height: 120px;
+      z-index: 10000;
+    }
 
-        .header h1 {
-            color: #ff0062;
-            font-size: 2.5rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            margin: 0;
-            flex-grow: 1;
-            text-align: center;
-            animation: fadeIn 1.5s ease-in-out;
-        }
+    /* هدر */
+    header {
+      background: var(--glass-bg);
+      backdrop-filter: blur(15px);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    .header-content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .search-container {
+      flex: 1;
+      margin-left: 1rem;
+    }
+    .search-input {
+      width: 20%;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      font-size: 1rem;
+    }
 
-        .search-container {
-            position: relative;
-            width: 300px;
-        }
+    /* دکمه حمایت مالی */
+    .support-button {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      background: var(--primary-color);
+      color: var(--text-color);
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      transition: background 0.3s ease;
+      z-index: 101;
+      font-size: 1rem;
+    }
+    .support-button:hover {
+      background: var(--secondary-color);
+    }
 
-        .search-input {
-            width: 100%;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 25px;
-            background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-        }
+    /* گالری */
+    .gallery-container {
+      max-width: 1400px;
+      margin: 2rem auto;
+      padding: 0 20px;
+      position: relative;
+      z-index: 1;
+    }
 
-        .search-input:focus {
-            outline: none;
-            background: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-        }
+    .gallery-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+    }
 
-        /* Support Button Styles */
-        .support-button {
-            background: linear-gradient(135deg, #ff0062, #ff0062);
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-            display: block;
-            margin: 1rem auto;
-            text-align: center;
-            max-width: 200px;
-            animation: pulse 2s infinite;
-        }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      transition: all 0.3s ease;
+      aspect-ratio: 16/9;
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-        .support-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.5);
-        }
+    .gallery-item img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
 
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
+    .image-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+      font-size: 1.3rem;
+      text-align: center;
+      color: var(--text-color);
+      z-index: 2;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    }
 
-        /* Gallery Container */
-        .gallery-container {
-            max-width: 1400px;
-            margin: 2rem auto;
-            padding: 0 20px;
-        }
+    /* پخش‌کننده تمام‌صفحه */
+    .popup-player {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.95);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
 
-        /* Category Styles */
-        .category {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 20px;
-            padding: 2rem;
-            margin-bottom: 3rem;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        }
+    .popup-player.active {
+      opacity: 1;
+      visibility: visible;
+    }
 
-        .category-title {
-            font-size: 2rem;
-            color: #4ecdc4;
-            text-align: center;
-            margin-bottom: 2rem;
-            position: relative;
-            padding-bottom: 0.5rem;
-            animation: slideIn 1s ease-in-out;
-        }
+    .popup-content {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-        .category-title::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ecdc4 0%, #45b7af 100%);
-            border-radius: 2px;
-        }
+    .popup-content iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
 
-        /* Gallery Items */
-        .gallery-items {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 2rem;
-        }
+    .close {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: var(--text-color);
+      font-size: 2.5rem;
+      cursor: pointer;
+      z-index: 1001;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
 
-        .gallery-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 15px;
-            transition: all 0.3s ease;
-            aspect-ratio: 16/9;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            cursor: pointer;
-            animation: fadeInUp 1s ease-in-out;
-        }
+    .close:hover {
+      transform: rotate(90deg);
+      color: var(--primary-color);
+    }
 
-        .gallery-item::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
-            z-index: 1;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
+    /* فوتر */
+    footer {
+      background: var(--glass-bg);
+      backdrop-filter: blur(15px);
+      padding: 1rem 2rem;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      box-shadow: var(--shadow);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      z-index: 100;
+    }
+    footer p, footer a {
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
 
-        .gallery-item:hover::before {
-            opacity: 1;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 15px;
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
-
-        .image-title {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 1rem;
-            font-size: 1.2rem;
-            text-align: center;
-            color: #fff;
-            z-index: 2;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover .image-title {
-            transform: translateY(0);
-        }
-
-        /* Popup Player */
-        .popup-player {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.95);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease, visibility 0.3s ease;
-        }
-
-        .popup-content {
-            position: relative;
-            width: 90%;
-            max-width: 1000px;
-            background: #1a1a2e;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
-            transform: scale(0.9);
-            transition: transform 0.3s ease;
-        }
-
-        .popup-player.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .popup-player.active .popup-content {
-            transform: scale(1);
-        }
-
-        .close {
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            color: #fff;
-            font-size: 2.5rem;
-            cursor: pointer;
-            z-index: 1001;
-            transition: transform 0.3s ease, color 0.3s ease;
-        }
-
-        .close:hover {
-            transform: rotate(90deg);
-            color: #ff0062;
-        }
-
-        /* Footer */
-        footer {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 1.5rem;
-            margin-top: 3rem;
-            text-align: center;
-            backdrop-filter: blur(10px);
-        }
-
-        footer p {
-            font-size: 1.1rem;
-        }
-
-        footer a {
-            color: #ffffff;
-            text-decoration: none;
-            transition: color 0.3s ease;
-            font-weight: bold;
-        }
-
-        footer a:hover {
-            color: #ff0062;
-        }
-
-        /* Loading Animation */
-        .loader {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid #ffffff;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            z-index: 9999;
-        }
-
-        @keyframes spin {
-            0% { transform: translate(-50%, -50%) rotate(0deg); }
-            100% { transform: translate(-50%, -50%) rotate(360deg); }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        @keyframes slideIn {
-            from { transform: translateY(-20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        @keyframes fadeInUp {
-            from { transform: translateY(20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .search-container {
-                width: 100%;
-                margin-top: 1rem;
-            }
-
-            .gallery-items {
-                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            }
-            
-            .category-title {
-                font-size: 1.6rem;
-            }
-
-            .header h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    /* واکنش‌گرایی */
+    @media (max-width: 768px) {
+      .gallery-items {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+      header, footer {
+        padding: 0.8rem 1rem;
+      }
+      .support-button {
+        bottom: 80px;
+        right: 10px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="loader"></div>
-
-    <header class="header">
-        <div class="header-content">
-            <div class="search-container">
-                <input type="text" class="search-input" placeholder="جستجو...">
-            </div>
-            <h1>CafeTV</h1>
-            <div style="width: 300px;"></div> <!-- Placeholder for alignment -->
-        </div>
-    </header>
-
-    <button class="support-button" onclick="window.open('#','_blank','width=400,height=600')">
-        حمایت مالی
-    </button>
-
-    <div class="gallery-container">
-        <div class="category" id="satellite">
-            <h2 class="category-title">📡 tv online </h2>
-            <div class="gallery-items" id="satellite-items"></div>
-        </div>
+  <div class="loader">
+    <div class="loader-inner">
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
     </div>
+    <div class="loader-text">در حال بارگذاری...</div>
+  </div>
 
-    <footer>
-        <p>
-            طراحی شده با ❤️ توسط
-            <a href="https://t.me/mehdisedighinasab">مهدی صدیقی نسب</a>
-        </p>
-    </footer>
+  <header>
+    <div class="header-content">
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="جستجو...">
+      </div>
+      <h1>cafetv</h1>
+      <div style="width: 300px;"></div>
+    </div>
+  </header>
 
-    <script>
-        // Show loader
-        function showLoader() {
-            document.querySelector('.loader').style.display = 'block';
+  <button class="support-button" onclick="window.open('#','_blank','width=400,height=600')">
+    حمایت مالی
+  </button>
+
+  <div class="gallery-container">
+    <div class="category" id="satellite">
+      <h2 class="category-title">📡 کانال‌های ماهواره‌ای</h2>
+      <div class="gallery-items" id="satellite-items"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      طراحی شده با ❤️ توسط
+      <a href="https://t.me/mehdisedighinasab" target="_blank">مهدی صدیقی نسب</a>
+    </p>
+  </footer>
+
+  <script>
+    // مدیریت لودینگ
+    function showLoader() {
+      document.querySelector('.loader').style.display = 'block';
+    }
+
+    function hideLoader() {
+      document.querySelector('.loader').style.display = 'none';
+    }
+
+    // بارگذاری محتوا
+    async function loadGalleryItems(file, containerId) {
+      showLoader();
+      try {
+        const response = await fetch(file);
+        const data = await response.text();
+        const lines = data.split('\n').filter(line => line.trim() !== '');
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
+
+        for (let i = 0; i < lines.length; i += 3) {
+          const item = createGalleryItem(lines[i], lines[i+1], lines[i+2]);
+          container.appendChild(item);
         }
 
-        // Hide loader
-        function hideLoader() {
-            document.querySelector('.loader').style.display = 'none';
-        }
+        initLazyLoading();
+      } catch (error) {
+        console.error('خطا در بارگذاری:', error);
+        alert('خطا در دریافت اطلاعات! لطفا اتصال اینترنت را بررسی کنید.');
+      } finally {
+        hideLoader();
+      }
+    }
 
-        // Improved loadGalleryItems with error handling and lazy loading
-        async function loadGalleryItems(file, containerId) {
-            showLoader();
-            try {
-                const response = await fetch(file);
-                const data = await response.text();
-                const lines = data.split('\n').filter(line => line.trim() !== '');
-                
-                const container = document.getElementById(containerId);
-                container.innerHTML = ''; // Clear previous content
+    function createGalleryItem(imgSrc, liveStreamUrl, title) {
+      const item = document.createElement('div');
+      item.className = 'gallery-item';
+      item.innerHTML = `
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+             data-src="${imgSrc}"
+             alt="${title}"
+             loading="lazy">
+        <div class="image-title">${title}</div>
+      `;
+      item.addEventListener('click', () => openPlayer(liveStreamUrl));
+      return item;
+    }
 
-                for (let i = 0; i < lines.length; i += 3) {
-                    const imgSrc = lines[i].trim();
-                    const liveStreamUrl = lines[i + 1].trim();
-                    const title = lines[i + 2].trim();
-
-                    const item = document.createElement('div');
-                    item.className = 'gallery-item';
-                    item.innerHTML = `
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                             data-src="${imgSrc}"
-                             alt="${title}"
-                             loading="lazy">
-                        <div class="image-title">${title}</div>
-                    `;
-                    item.addEventListener('click', () => openPlayer(liveStreamUrl));
-                    container.appendChild(item);
-                }
-
-                // Implement lazy loading
-                const lazyImages = document.querySelectorAll('img[data-src]');
-                const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            const img = entry.target;
-                            img.src = img.dataset.src;
-                            img.removeAttribute('data-src');
-                            observer.unobserve(img);
-                        }
-                    });
-                });
-
-                lazyImages.forEach(img => lazyLoadObserver.observe(img));
-
-            } catch (error) {
-                console.error('Error loading gallery items:', error);
-                alert('خطا در بارگذاری محتوا! لطفا اتصال اینترنت را بررسی کنید.');
-            } finally {
-                hideLoader();
-            }
-        }
-
-        // Enhanced openPlayer with keyboard support and smooth animation
-        function openPlayer(url) {
-            const playerHTML = `
-                <div class="popup-player">
-                    <div class="popup-content">
-                        <span class="close" onclick="closePlayer()">&times;</span>
-                        <iframe src="${url}"
-                                frameborder="0"
-                                allowfullscreen
-                                style="width: 100%; height: 80vh;"></iframe>
-                    </div>
-                </div>
-            `;
-            
-            document.body.insertAdjacentHTML('beforeend', playerHTML);
-            
-            // Fade in animation
-            setTimeout(() => {
-                document.querySelector('.popup-player').classList.add('active');
-            }, 10);
-
-            // Close on ESC key
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') closePlayer();
-            });
-
-            // Close on outside click
-            document.querySelector('.popup-player').addEventListener('click', (e) => {
-                if (e.target.classList.contains('popup-player')) {
-                    closePlayer();
-                }
-            });
-        }
-
-        function closePlayer() {
-            const player = document.querySelector('.popup-player');
-            if (player) {
-                player.classList.remove('active');
-                setTimeout(() => player.remove(), 300);
-            }
-        }
-
-        // Search functionality
-        const searchInput = document.querySelector('.search-input');
-        searchInput.addEventListener('input', (e) => {
-            const searchTerm = e.target.value.toLowerCase();
-            const galleryItems = document.querySelectorAll('.gallery-item');
-            
-            galleryItems.forEach(item => {
-                const title = item.querySelector('.image-title').textContent.toLowerCase();
-                if (title.includes(searchTerm)) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
+    function initLazyLoading() {
+      const lazyImages = document.querySelectorAll('img[data-src]');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.src = img.dataset.src;
+            observer.unobserve(img);
+          }
         });
+      });
+      lazyImages.forEach(img => observer.observe(img));
+    }
 
-        // Initialize
-        window.addEventListener('DOMContentLoaded', () => {
-            loadGalleryItems('category1.txt', 'satellite-items');
-        });
-    </script>
+    // مدیریت پخش کننده
+    function openPlayer(url) {
+      const playerHTML = `
+        <div class="popup-player">
+          <div class="popup-content">
+            <span class="close" onclick="closePlayer()">&times;</span>
+            <iframe src="${url}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      `;
+      document.body.insertAdjacentHTML('beforeend', playerHTML);
+      setTimeout(() => {
+        document.querySelector('.popup-player').classList.add('active');
+      }, 10);
+      addPlayerEventListeners();
+    }
+
+    function addPlayerEventListeners() {
+      document.addEventListener('keydown', handleEscape);
+      document.querySelector('.popup-player').addEventListener('click', (e) => {
+        if (e.target.classList.contains('popup-player')) closePlayer();
+      });
+    }
+
+    function handleEscape(e) {
+      if (e.key === 'Escape') closePlayer();
+    }
+
+    function closePlayer() {
+      const player = document.querySelector('.popup-player');
+      if (player) {
+        player.classList.remove('active');
+        setTimeout(() => {
+          player.remove();
+          document.removeEventListener('keydown', handleEscape);
+        }, 300);
+      }
+    }
+
+    // اجرای اولیه
+    window.addEventListener('DOMContentLoaded', () => {
+      loadGalleryItems('category1.txt', 'satellite-items');
+    });
+  </script>
 </body>
 </html>
