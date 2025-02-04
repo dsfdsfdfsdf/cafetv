@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cafetv - پخش زنده</title>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/a/a0/20170123152547%21TV_icon.svg/120px-TV_icon.svg.png" type="image/x-icon">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/a/a0/20170123152547%21TV_icon.svg/120px-TV_icon.svg.png" type="image/x-icon">
   <style>
     :root {
       --primary-color: #ff0062;
@@ -237,6 +237,22 @@
         right: 10px;
         font-size: 0.9rem;
       }
+      /* تنظیم مجدد هدر در موبایل */
+      .header-content {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .search-container {
+        margin: 0 0 0.5rem 0;
+        width: 100%;
+      }
+      .search-input {
+        width: 100%;
+      }
+      header h1 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
     }
   </style>
 </head>
@@ -340,7 +356,7 @@
       lazyImages.forEach(img => observer.observe(img));
     }
 
-    // مدیریت پخش کننده
+    // مدیریت پخش‌کننده
     function openPlayer(url) {
       const playerHTML = `
         <div class="popup-player">
