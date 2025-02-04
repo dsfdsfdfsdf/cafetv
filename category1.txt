@@ -1,60 +1,111 @@
 ./photo/ir/irib1.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv1/tv1_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226637/index.m3u8
 tv 1
 ./photo/ir/irib2.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv2/tv2_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226176/index.m3u8
 tv 2
 ./photo/ir/irib3.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv3/tv3_480/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226868/index.m3u8
 tv 3
 ./photo/ir/irib4.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv4/tv4_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226140/index.m3u8
 tv 4
 ./photo/ir/irib5.png
 https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tv5/tv5_360/index.m3u8
 tv 5
 ./photo/ir/irinn.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/irinn/irinn_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226142/index.m3u8
 tv irinn
+./photo/ir/irinn.png
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221227020/index.m3u8
+tv irinn2
 ./photo/ir/mostanad.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/mostanad/mostanad_540/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226901/index.m3u8
 tv mostanad
 ./photo/ir/nasim.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/nasim/nasim_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226653/index.m3u8
 tv nasim
 ./photo/ir/salamat.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/salamat/salamat_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226152/index.m3u8
 salamat
 ./photo/ir/azmozesh.png
 https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/amoozesh/amoozesh_360/index.m3u8
 tv amoozesh
 ./photo/ir/namayesh.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/namayesh/namayesh_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226148/index.m3u8
 tv namayesh
 ./photo/ir/pooya.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/pooya/pooya_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226145/index.m3u8
 tv pooya
 ./photo/ir/tamasha.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/tamasha/tamasha_480/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226879/index.m3u8
 tv tamasha
 ./photo/ir/ifilm.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/ifilm2/ifilm2_360/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://live.presstv.ir/hls/ifilmfa.m3u8
+tv ifilm
+./photo/ir/ifilm.png
+https://3ab99827.p-2as.pages.dev/player/#https://live.presstv.ir/hls/ifilm2.m3u8
 tv ifilm2
 ./photo/ir/varzesh.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/varzesh/varzesh_720/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226845/index.m3u8
 tv varzesh
 ./photo/ir/omid.png
 https://3ab99827.p-2as.pages.dev/player/#https://livecdn.gaplication.com/http/5.123.1.9/80/wh7f454c46tw15785945_1739563790/PLTV/88888888/224/3221226159/4.m3u8
 tv omid
-./photo/ir/aio.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/mostanad/mostanad_540/index.m3u8
-tv Aio Sports 1
-./photo/ir/aio.png
-https://3ab99827.p-2as.pages.dev/player/#https://live.aionet.ir/hls/nasim/nasim_360/index.m3u8
-tv Aio Sports 2
 ./photo/ir/4u.png
 https://3ab99827.p-2as.pages.dev/player/#https://bravoohls.wns.live/hls/stream.m3u8
 tv 4UTV
+https://upload.wikimedia.org/wikipedia/commons/5/51/Jjtvlogo1401.png
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226178/index.m3u8
+tv Jame-Jam1
+https://upload.wikimedia.org/wikipedia/fa/thumb/2/21/Urmia_TV.svg/250px-Urmia_TV.svg.png
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226800/index.m3u8
+West Azerbaijan TV
+https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sepehrtv.png/258px-Sepehrtv.png
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226161/index.m3u8
+Sepehr TV
+https://upload.wikimedia.org/wikipedia/fa/thumb/3/37/Tabriz_Sahand.svg/320px-Tabriz_Sahand.svg.png
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226423/index.m3u8
+Sahand TV
+https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Amouzesh_TV_logo_%282023%29.svg/201px-Amouzesh_TV_logo_%282023%29.svg.png
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221226151/index.m3u8
+Amouzesh TV
+https://upload.wikimedia.org/wikipedia/fa/thumb/b/b9/TV_Baran.svg/283px-TV_Baran.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226902/index.m3u8
+Baran TV
+https://upload.wikimedia.org/wikipedia/fa/thumb/6/6e/Arak_AFTAB.svg/274px-Arak_AFTAB.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226899/index.m3u8
+Aftab TV
+https://upload.wikimedia.org/wikipedia/fa/7/7b/Iribfars.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226701/index.m3u8
+Fars TV
+https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/IsfahanTV.svg/242px-IsfahanTV.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226652/index.m3u8
+Isfahan TV
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/240px-Kerman_irib_logo_%28blue_version%29.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226856/index.m3u8
+Kerman TV
+https://upload.wikimedia.org/wikipedia/fa/thumb/9/9a/Ahwaz_TV.svg/320px-Ahwaz_TV.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226415/index.m3u8
+Khozestan TV
+https://upload.wikimedia.org/wikipedia/fa/thumb/2/2c/Sanandaj_KORDESTAN.svg/240px-Sanandaj_KORDESTAN.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226647/index.m3u8
+Kordestan TV
+https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/320px-Ofogh_TV_logo.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226143/index.m3u8
+Ofogh TV
+https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/320px-QazvinTV.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226888/index.m3u8
+Qazvin TV
+https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226144/index.m3u8
+Quran TV
+https://upload.wikimedia.org/wikipedia/fa/thumb/3/37/Tabriz_Sahand.svg/320px-Tabriz_Sahand.svg.png
+https://lenz.splus.ir/PLTV/88888888/224/3221226423/index.m3u8
+Sahand TV
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Yazd_taban.svg/382px-Yazd_taban.svg.png
+https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221227023/index.m3u8
+Yazd TV
 ./photo/mah/Iran-International.png
 https://3ab99827.p-2as.pages.dev/player/#https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b806000.m3u8
 tv Iran International
@@ -79,39 +130,9 @@ tv Persiana Iranian
 ./photo/mah/pna-music.png
 https://3ab99827.p-2as.pages.dev/player/#https://musichls.persiana.live/hls/stream.m3u8
 tv Persiana Music
-./photo/mah/avaseries.png
-https://3ab99827.p-2as.pages.dev/player/#https://avaserieshls.wns.live/hls/stream.m3u8
-tv AVA Series
-./photo/mah/pn-iranian.png
-https://3ab99827.p-2as.pages.dev/player/#https://latinohls.persiana.live/hls/stream.m3u8
-tv Persiana Iranian
-./photo/mah/pna-sonnati.png
-https://3ab99827.p-2as.pages.dev/player/#https://sonhls.persiana.live/hls/stream.m3u8
-tv Persiana Sonnati
-./photo/mah/4kuhls.jpg
-https://3ab99827.p-2as.pages.dev/player/#https://4kuhls.persiana.live/hls/stream.m3u8
-tv 4Kurd
-./photo/mah/pna-comedy.png
-https://3ab99827.p-2as.pages.dev/player/#https://comedyhls.persiana.live/hls/stream.m3u8
-tv persiana comedy
-./photo/mah/pna-sports.png
-https://3ab99827.p-2as.pages.dev/player/#https://twohls.persiana.live/hls/stream.m3u8
-tv Persiana Sports
-./photo/mah/meta-film-tv.png
-https://3ab99827.p-2as.pages.dev/player/#https://metafilmhls.wns.live/hls/stream.m3u8
-tv meta filmh
-./photo/mah/IranTV_Network.jpg
-https://3ab99827.p-2as.pages.dev/player/#https://itnhls.wns.live/hls/stream.m3u8
-tv ITN HD
-./photo/mah/avang-tv.jpg
-https://3ab99827.p-2as.pages.dev/player/#https://hls.avang.live/hls/stream.m3u8
-tv avang
 ./photo/mah/pna-rap.png
 https://3ab99827.p-2as.pages.dev/player/#https://raphls.persiana.live/hls/stream.m3u8
 tv Persiana Rap
-./photo/mah/pna-sonnati.png
-https://3ab99827.p-2as.pages.dev/player/#https://sonhls.persiana.live/hls/stream.m3u8
-tv son persiana
 ./photo/mah/pna-hd.png
 https://3ab99827.p-2as.pages.dev/player/#https://euhls.persiana.live/hls/stream.m3u8
 tv persiana hd
@@ -133,6 +154,72 @@ tv Persiana Junior
 ./photo/mah/pna-nostalgia.png
 https://3ab99827.p-2as.pages.dev/player/#https://noshls.persiana.live/hls/stream.m3u8
 tv Persiana Nostalgia
+./photo/mah/4kuhls.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://4kuhls.persiana.live/hls/stream.m3u8
+tv 4Kurd
+./photo/mah/meta-film-tv.png
+https://3ab99827.p-2as.pages.dev/player/#https://metafilmhls.wns.live/hls/stream.m3u8
+tv meta filmh
+./photo/mah/IranTV_Network.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://itnhls.wns.live/hls/stream.m3u8
+tv ITN HD
+./photo/mah/avaseries.png
+https://3ab99827.p-2as.pages.dev/player/#https://familyhls.avatv.live/hls/stream.m3u8
+tv AVA Family
+./photo/mah/avaseries.png
+https://3ab99827.p-2as.pages.dev/player/#https://avaserieshls.wns.live/hls/stream.m3u8
+tv AVA Series
+./photo/mah/avang-tv.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://hls.avang.live/hls/stream.m3u8
+tv avang
 ./photo/mah/mbcpersia-1.png
 https://3ab99827.p-2as.pages.dev/player/#https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
 tv MBC Persia
+https://i.imgur.com/LctanF8.png
+https://3ab99827.p-2as.pages.dev/player/#https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
+AFN TV
+https://i.ibb.co/cCmjqtQ/logo-2.png
+https://3ab99827.p-2as.pages.dev/player/#https://t.northtelecom.org/ABALFADHLTV.m3u8
+Abalfadhl TV
+https://i.imgur.com/n9cuM2W.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://slonehls.wns.live/hls/stream.m3u8
+SL 1
+https://i.imgur.com/n9cuM2W.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://sltwohls.wns.live/hls/stream.m3u8
+SL 2
+https://i.imgur.com/NFsBd4D.png
+https://3ab99827.p-2as.pages.dev/player/#https://iptv.negahtv.com/negahtv/playlist.m3u8
+Negah TV
+https://i.ibb.co/yynxRTS/Bravo-Farsi.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://bravoohls.wns.live/hls/stream.m3u8
+Bravo Farsi TV
+https://www.lyngsat.com/logo/tv/ff/fx-1.png
+https://3ab99827.p-2as.pages.dev/player/#https://fxtvhls.wns.live/hls/stream.m3u8
+FX 1
+https://upload.wikimedia.org/wikipedia/commons/9/9f/Hispantv_logo.jpg
+https://3ab99827.p-2as.pages.dev/player/#https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8
+Hispan TV
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjwdSjfPN5mmdN_f8zB2HesppxL_MwwsPGmA&usqp=CAU
+https://3ab99827.p-2as.pages.dev/player/#http://iran620.com:1935/live/IranJewishTv/playlist.m3u8
+Iran Jewish TV
+https://i.imgur.com/Ig0SPev.png
+https://3ab99827.p-2as.pages.dev/player/#http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+Mohabat TV
+https://i.imgur.com/o2Ww77N.png
+https://3ab99827.p-2as.pages.dev/player/#https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
+Payvand TV
+https://i.imgur.com/AB0BaaA.png
+https://3ab99827.p-2as.pages.dev/player/#https://pfilmhls.wns.live/hls/stream.m3u8
+Persian Film
+https://i.imgur.com/YtCmlNT.png
+https://3ab99827.p-2as.pages.dev/player/#https://hls.vox1.live/hls/stream.m3u8
+VOX1
+https://i.imgur.com/X38vWJ1.png
+https://3ab99827.p-2as.pages.dev/player/#https://hls.yourtime.live/hls/stream.m3u8
+YourTime TV
+https://i.imgur.com/e4WffQA.png
+https://3ab99827.p-2as.pages.dev/player/#https://hls.nejat.live/hls/stream.m3u8
+TBN Nejat TV
+https://i.imgur.com/MGMhUDx.png
+https://3ab99827.p-2as.pages.dev/player/#https://hls.oxir.live/hls/stream.m3u8
+OXIR TV
