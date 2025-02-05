@@ -224,17 +224,17 @@ https://i.imgur.com/MGMhUDx.png
 https://3ab99827.p-2as.pages.dev/player/#https://hls.oxir.live/hls/stream.m3u8
 OXIR TV
 photo/vbcvbcvb.png
-https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
 حرم مطهر
 photo/vbcvbcvb.png
-https://stream01.nasimrezvan.com/hls/nCqGTHytkVFziVPWBLqkdQYK/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/nCqGTHytkVFziVPWBLqkdQYK/index.m3u8
 روضه منوره
 photo/vbcvbcvb.png
-https://stream01.nasimrezvan.com/hls/XuTYYVjRVYiNNzfSYVrzFLfJ/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/XuTYYVjRVYiNNzfSYVrzFLfJ/index.m3u8
 صحن انقلاب اسلامی
 photo/vbcvbcvb.png
-https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
 صحن آزادی
 photo/vbcvbcvb.png
-https://stream01.nasimrezvan.com/hls/RpnpimQkhQvuAXZrPBbvEJwL/index.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/RpnpimQkhQvuAXZrPBbvEJwL/index.m3u8
 صحن گوهرشاد
