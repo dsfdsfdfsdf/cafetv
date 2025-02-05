@@ -229,27 +229,6 @@ Maah TV
 https://upload.wikimedia.org/wikipedia/fa/thumb/3/3e/PMC_Music_Logo.png/220px-PMC_Music_Logo.png
 https://3ab99827.p-2as.pages.dev/player/#https://hls.pmchd.live/hls/stream.m3u8
 PMC 
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrk2-q9iuKihzSexPliNJ4c6AoBuleHEQfJEc1aC6lmer1qH_lY08grXJBCIT3rQDSaA&usqp=CAU
-https://3ab99827.p-2as.pages.dev/player/#https://glwizhstb53.glwiz.com/GemSeries_HD/GemSeries_High.m3u8?user=sgls76551&session=e0ddf9b1cbe56d0f8fdd9bee025a010afc903939f7281c3050af70323b7f56ccaa4504bdcc00643cc7ad11cb4536875d&hlsid=HTTP_ID_245209&group_id=76551
-Gem Series
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrk2-q9iuKihzSexPliNJ4c6AoBuleHEQfJEc1aC6lmer1qH_lY08grXJBCIT3rQDSaA&usqp=CAU
-https://3ab99827.p-2as.pages.dev/player/#https://glwizhstb37.glwiz.com/RUBIX_HD/RUBIX_High.m3u8?user=sgls76551&session=38f1b6ef2b7bca649b587bf228b22e4e13cad8d71e70ec2426a70c5246f60149759da44f728a1efa&hlsid=HTTP_ID_1023332&group_id=76551
-Gem Rubix
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrk2-q9iuKihzSexPliNJ4c6AoBuleHEQfJEc1aC6lmer1qH_lY08grXJBCIT3rQDSaA&usqp=CAU
-https://3ab99827.p-2as.pages.dev/player/#https://glwizhstb53.glwiz.com/ONYX_HD/ONYX_High.m3u8?user=sgls76551&session=f6e35709c5ab33eaedd27e010fc467f78d495511a738328627f997a1a79f102c830c2e2b6f65599b&hlsid=HTTP_ID_245209&group_id=76551
-Gem Onyx
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrk2-q9iuKihzSexPliNJ4c6AoBuleHEQfJEc1aC6lmer1qH_lY08grXJBCIT3rQDSaA&usqp=CAU
-https://3ab99827.p-2as.pages.dev/player/#https://glwizhstb52.glwiz.com/RIVER_HD/RIVER_High.m3u8?user=sgls76551&session=8b7c25fd4b226ef790058ce430ca7e6613cad8d71e70ec2426a70c5246f60149759da44f728a1efa&hlsid=HTTP_ID_210395&group_id=76551
-Gem River
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrk2-q9iuKihzSexPliNJ4c6AoBuleHEQfJEc1aC6lmer1qH_lY08grXJBCIT3rQDSaA&usqp=CAU
-https://3ab99827.p-2as.pages.dev/player/#https://glwizhstb41.glwiz.com/GEMTV_HD/GEMTV_High.m3u8?user=sgls76551&session=763614430b4c830680e01ae2810e9e3313cad8d71e70ec2426a70c5246f60149759da44f728a1efa&hlsid=HTTP_ID_178173&group_id=76551
-GEM TV 
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrk2-q9iuKihzSexPliNJ4c6AoBuleHEQfJEc1aC6lmer1qH_lY08grXJBCIT3rQDSaA&usqp=CAU
-https://3ab99827.p-2as.pages.dev/player/#https://glwizhstb40.glwiz.com/IranProudSeriesPlus_HD/IranProudSeriesPlus_High.m3u8?user=sgls76551&session=8d8b812344af68d5ea0df600aabce774377432fa61912bd695eb85284abc6472cf03001232089688&hlsid=HTTP_ID_231959&group_id=76551
-GEM Series Plus
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrk2-q9iuKihzSexPliNJ4c6AoBuleHEQfJEc1aC6lmer1qH_lY08grXJBCIT3rQDSaA&usqp=CAU
-https://3ab99827.p-2as.pages.dev/player/#https://glwizhstb42.glwiz.com/GemFilm_HD/GemFilm_High.m3u8?user=sgls76551&session=1436c559255dc8f506f5117b658cde5b4118df4f3d8abb0395eb85284abc6472cf03001232089688&hlsid=HTTP_ID_240803&group_id=76551
-GEM Film
 photo/vbcvbcvb.png
 https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
 حرم مطهر
