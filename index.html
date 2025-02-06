@@ -395,6 +395,22 @@
       }
     }
 
+    // اضافه کردن عملکرد جستجو به فیلد ورودی هدر
+    document.querySelector('.search-input').addEventListener('input', function(e) {
+      const searchText = e.target.value.toLowerCase();
+      const galleryItems = document.querySelectorAll('.gallery-item');
+
+      galleryItems.forEach(item => {
+        // فرض شده عنوان هر آیتم در عنصر با کلاس image-title نوشته شده است
+        const title = item.querySelector('.image-title').textContent.toLowerCase();
+        if (title.includes(searchText)) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+
     // اجرای اولیه
     window.addEventListener('DOMContentLoaded', () => {
       loadGalleryItems('category1.txt', 'satellite-items');
