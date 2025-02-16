@@ -106,6 +106,21 @@ Sahand TV
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Yazd_taban.svg/382px-Yazd_taban.svg.png
 https://3ab99827.p-2as.pages.dev/player/#https://lenz.splus.ir/PLTV/88888888/224/3221227023/index.m3u8
 Yazd TV
+photo/vbcvbcvb.png
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
+حرم مطهر
+photo/vbcvbcvb.png
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/nCqGTHytkVFziVPWBLqkdQYK/index.m3u8
+روضه منوره
+photo/vbcvbcvb.png
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/XuTYYVjRVYiNNzfSYVrzFLfJ/index.m3u8
+صحن انقلاب اسلامی
+photo/vbcvbcvb.png
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
+صحن آزادی
+photo/vbcvbcvb.png
+https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/RpnpimQkhQvuAXZrPBbvEJwL/index.m3u8
+صحن گوهرشاد
 ./photo/mah/Iran-International.png
 https://3ab99827.p-2as.pages.dev/player/#https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b806000.m3u8
 tv Iran International
@@ -229,18 +244,69 @@ Maah TV
 https://upload.wikimedia.org/wikipedia/fa/thumb/3/3e/PMC_Music_Logo.png/220px-PMC_Music_Logo.png
 https://3ab99827.p-2as.pages.dev/player/#https://hls.pmchd.live/hls/stream.m3u8
 PMC 
-photo/vbcvbcvb.png
-https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
-حرم مطهر
-photo/vbcvbcvb.png
-https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/nCqGTHytkVFziVPWBLqkdQYK/index.m3u8
-روضه منوره
-photo/vbcvbcvb.png
-https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/XuTYYVjRVYiNNzfSYVrzFLfJ/index.m3u8
-صحن انقلاب اسلامی
-photo/vbcvbcvb.png
-https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/QkEtXUwaqTiUWfLjGKrscUdR/index.m3u8
-صحن آزادی
-photo/vbcvbcvb.png
-https://3ab99827.p-2as.pages.dev/player/#https://stream01.nasimrezvan.com/hls/RpnpimQkhQvuAXZrPBbvEJwL/index.m3u8
-صحن گوهرشاد
+https://upload.wikimedia.org/wikipedia/fa/thumb/3/3e/PMC_Music_Logo.png/220px-PMC_Music_Logo.png
+https://rohls.pmc.live/hls/stream.m3u8
+PMC Royale
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/afrafilm.jpg
+https://p-2as.pages.dev/player/#https://afrafhls.wns.live/hls/stream.m3u8
+Afra Film
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/afraseries.jpg
+https://p-2as.pages.dev/player/#https://afrashls.wns.live/hls/stream.m3u8
+Afra Series
+https://wild-thunder-2615.10-354.workers.dev/wp-content/uploads/2025/01/Iran_beaty_live_stream.jpg
+https://p-2as.pages.dev/player/#https://irbthls.wns.live/hls/stream.m3u8
+Iran Beauty
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/nettv.png
+https://p-2as.pages.dev/player/#https://nethls.wns.live/hls/stream.m3u8
+Net TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/cafetrade.jpg
+https://p-2as.pages.dev/player/#https://cafetradehls.wns.live/hls/stream.m3u8
+Cafe Trade TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/negahtv.png
+https://p-2as.pages.dev/player/#https://iptv.negahtv.com/negahtv/playlist_src/index.m3u8
+Negah TV
+https://www.phttps://wild-thunder-2615.10-354.workers.devarsatv.com/index_files/channels/hmn.png
+https://p-2as.pages.dev/player/#https://6n3yowknl9ok-hls-live.5centscdn.com/HMN/271ddf829afeece44d8732757fba1a66.sdp/chunks.m3u8
+Health Media TV
+https://wild-thunder-2615.10-354.workers.dev/images/chanells-logo/ayeneh.svg
+https://p-2as.pages.dev/player/#https://2nbyjjx7y53k-hls-live.5centscdn.com/cls040318/b0d2763968fd0bdd2dc0d44ba2abf9ce.sdp/chunks.m3u8
+Ayeneh TV
+https://wild-thunder-2615.10-354.workers.dev/images/chanells-logo/khatereh.svg
+https://p-2as.pages.dev/player/#https://castor.streamthatvideo.co:8081/khaterehtv/tracks-v1a1/mono.m3u8
+Khatereh TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/digimovie.png
+https://p-2as.pages.dev/player/#https://fastdehost.com/live/digimovie.m3u8
+Digi Movie
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/tmtelevision.png
+https://p-2as.pages.dev/player/#https://hls.tmtv.live/hls/stream.m3u8
+TM TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/jahannama.jpg
+https://p-2as.pages.dev/player/#https://stream02.gaplication.com/hls/jahannamatvlive/index.m3u8
+Jahan Nama TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/247boxtv.jpg
+https://p-2as.pages.dev/player/#https://hls.247box.live/hls/stream.m3u8
+247 Box TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/tin.jpg
+https://p-2as.pages.dev/player/#https://bozztv.com/1gbw5/tintv/tintv/chunklist.m3u8
+Tasvire Iran
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/royaltime.jpg
+https://p-2as.pages.dev/player/#https://tixbolt.com/royaltv/tracks-v1a1/mono.ts.m3u8
+Royal Time TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/classictv.png
+https://p-2as.pages.dev/player/#https://clshls.wns.live/hls/stream.m3u8
+Classic TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/grandcinema.jpg
+https://p-2as.pages.dev/player/#https://gcinemahls.wns.live/hls/stream.m3u8
+Grand Cinema
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/me2tv.jpg
+https://p-2as.pages.dev/player/#https://me2hls.wns.live/hls/stream.m3u8
+ME2 TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/orangetv.png
+https://p-2as.pages.dev/player/#https://orangehls.wns.live/hls/stream.m3u8
+Orange TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/araxtv.jpg
+https://p-2as.pages.dev/player/#https://araxhls.wns.live/hls/stream.m3u8
+Arax TV
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/homeplus.jpg
+https://p-2as.pages.dev/player/#https://homeplushls.wns.live/hls/stream.m3u8
+Home Plus
