@@ -310,3 +310,13 @@ Arax TV
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/homeplus.jpg
 https://p-2as.pages.dev/player/#https://homeplushls.wns.live/hls/stream.m3u8
 Home Plus
+https://wild-thunder-2615.10-354.workers.dev/wp-content/uploads/2025/01/iran-nama_live_stream.jpg
+https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fhls.ashena.live%2Fhls%2Fstream.m3u8
+Iran Nama
+https://wild-thunder-2615.10-354.workers.dev/wp-content/uploads/2024/03/sunmusic_live_stream.jpg
+https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fhls.sunmusic.live%2Fhls%2Fstream.m3u8
+Sun Music
+https://wild-thunder-2615.10-354.workers.dev/wp-content/uploads/2025/01/didaniha.jpg
+https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fdidaniha.wiseplayout.com%2FDidaniha%2FHD1080%2FHD1080.m3u8
+Didaniha TV
+
