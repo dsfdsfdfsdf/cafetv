@@ -238,7 +238,7 @@ TBN Nejat TV
 https://i.imgur.com/MGMhUDx.png
 https://3ab99827.p-2as.pages.dev/player/#https://hls.oxir.live/hls/stream.m3u8
 OXIR TV
-photo/5451451515.jpg
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/maahtv.jpg
 https://3ab99827.p-2as.pages.dev/player/#https://hls.maahtv.live/hls/stream.m3u8
 Maah TV
 https://upload.wikimedia.org/wikipedia/fa/thumb/3/3e/PMC_Music_Logo.png/220px-PMC_Music_Logo.png
@@ -265,7 +265,7 @@ Cafe Trade TV
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/negahtv.png
 https://p-2as.pages.dev/player/#https://iptv.negahtv.com/negahtv/playlist_src/index.m3u8
 Negah TV
-https://www.phttps://wild-thunder-2615.10-354.workers.devarsatv.com/index_files/channels/hmn.png
+https://kanaljavan.com/wp-content/uploads/2021/05/logo3-2.png
 https://p-2as.pages.dev/player/#https://6n3yowknl9ok-hls-live.5centscdn.com/HMN/271ddf829afeece44d8732757fba1a66.sdp/chunks.m3u8
 Health Media TV
 https://wild-thunder-2615.10-354.workers.dev/images/chanells-logo/ayeneh.svg
