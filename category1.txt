@@ -253,9 +253,6 @@ Afra Film
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/afraseries.jpg
 https://p-2as.pages.dev/player/#https://afrashls.wns.live/hls/stream.m3u8
 Afra Series
-https://wild-thunder-2615.10-354.workers.dev/wp-content/uploads/2025/01/Iran_beaty_live_stream.jpg
-https://p-2as.pages.dev/player/#https://irbthls.wns.live/hls/stream.m3u8
-Iran Beauty
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/nettv.png
 https://p-2as.pages.dev/player/#https://nethls.wns.live/hls/stream.m3u8
 Net TV
