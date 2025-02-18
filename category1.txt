@@ -268,10 +268,10 @@ Negah TV
 https://kanaljavan.com/wp-content/uploads/2021/05/logo3-2.png
 https://p-2as.pages.dev/player/#https://6n3yowknl9ok-hls-live.5centscdn.com/HMN/271ddf829afeece44d8732757fba1a66.sdp/chunks.m3u8
 Health Media TV
-https://wild-thunder-2615.10-354.workers.dev/images/chanells-logo/ayeneh.svg
+https://ayenehmedia.org/wp-content/uploads/2023/08/ATV-Logo-New.png
 https://p-2as.pages.dev/player/#https://2nbyjjx7y53k-hls-live.5centscdn.com/cls040318/b0d2763968fd0bdd2dc0d44ba2abf9ce.sdp/chunks.m3u8
 Ayeneh TV
-https://wild-thunder-2615.10-354.workers.dev/images/chanells-logo/khatereh.svg
+https://wild-thunder-2615.10-354.workers.dev/index_files/channels/khatereh.png
 https://p-2as.pages.dev/player/#https://castor.streamthatvideo.co:8081/khaterehtv/tracks-v1a1/mono.m3u8
 Khatereh TV
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/digimovie.png
