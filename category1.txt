@@ -308,12 +308,12 @@ https://wild-thunder-2615.10-354.workers.dev/index_files/channels/homeplus.jpg
 https://p-2as.pages.dev/player/#https://homeplushls.wns.live/hls/stream.m3u8
 Home Plus
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/irannama.jpg
-https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fhls.ashena.live%2Fhls%2Fstream.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fhls.ashena.live%2Fhls%2Fstream.m3u8
 Iran Nama
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/sunmusic.jpg
-https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fhls.sunmusic.live%2Fhls%2Fstream.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fhls.sunmusic.live%2Fhls%2Fstream.m3u8
 Sun Music
 https://wild-thunder-2615.10-354.workers.dev/index_files/channels/didanihatv.png
-https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fdidaniha.wiseplayout.com%2FDidaniha%2FHD1080%2FHD1080.m3u8
+https://3ab99827.p-2as.pages.dev/player/#https://damp-mouse-e933.10-354.workers.dev/proxy/https%3A%2F%2Fdidaniha.wiseplayout.com%2FDidaniha%2FHD1080%2FHD1080.m3u8
 Didaniha TV
 
